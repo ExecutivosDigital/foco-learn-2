@@ -10,7 +10,6 @@ interface HeroCardProps {
 }
 
 export function HeroCard({ randomHero }: HeroCardProps) {
-  console.log("randomHero: ", randomHero);
   const [showModal, setShowModal] = useState(false);
 
   const openModal = () => setShowModal(true);
